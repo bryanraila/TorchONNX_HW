@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breast Cancer Classifier</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Breast Cancer Classifier</h1>
+    <p>Enter all 30 feature values below, then click Predict.</p>
+
+    <div id="form"></div>
+
+    <button onclick="predict()">Predict</button>
+
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
